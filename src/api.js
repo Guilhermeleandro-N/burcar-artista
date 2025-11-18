@@ -29,5 +29,9 @@ export async function searchArtists(artistName) {
     genre: artist.strGenre,
     bioPT: artist.strBiographyPT,
     bioEN: artist.strBiographyEN,
+    website: artist.strWebsite,
+    facebook: artist.strFacebook,
+    twitter: artist.strTwitter,
+    country: artist.strCountry,
   }));
 }
